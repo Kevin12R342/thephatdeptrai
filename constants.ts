@@ -1,0 +1,3532 @@
+import { Question } from './types';
+
+// Data corrected based on user request to fix wrong answers
+export const QUESTION_BANK: Question[] = [
+  {
+    "type": "mcq",
+    "theme": "1. Ứng dụng tin học",
+    "lesson": "Bài 2: AI trong xã hội",
+    "q": "AI trong hỗ trợ học tập có thể đóng vai trò gì?",
+    "options": [
+      "Gia sư ảo, gợi ý bài học và hỗ trợ giải bài tập",
+      "Chỉ dùng để tạo hiệu ứng âm thanh",
+      "Chỉ dùng để thay đổi độ sáng màn hình",
+      "Chỉ dùng để kết nối Wi‑Fi"
+    ],
+    "a": 0,
+    "source": "Tự soạn",
+    "id": "1-ng-d-ng-tin-h-c-b-i-2-ai-trong-x-h-i-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "1. Ứng dụng tin học",
+    "lesson": "Bài 2: AI trong xã hội",
+    "q": "AI có thể thay thế hoàn toàn con người trong mọi lĩnh vực không?",
+    "options": [
+      "Có, AI thay thế hoàn toàn con người",
+      "Không, AI chủ yếu hỗ trợ và vẫn cần con người giám sát/quyết định",
+      "Chỉ thay thế trong giáo dục",
+      "Chỉ thay thế khi không có Internet"
+    ],
+    "a": 1,
+    "source": "Tự soạn",
+    "id": "1-ng-d-ng-tin-h-c-b-i-2-ai-trong-x-h-i-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "2. Mạng máy tính và Internet",
+    "lesson": "Bài 5: Mạng máy tính và Internet",
+    "q": "Điểm khác nhau cơ bản giữa LAN và WAN là gì?",
+    "options": [
+      "LAN thường có phạm vi nhỏ (trong phòng/trường/cơ quan), WAN có phạm vi rộng (liên tỉnh/quốc gia)",
+      "WAN chỉ dùng trong gia đình",
+      "LAN luôn chậm hơn WAN",
+      "WAN không thể kết nối Internet"
+    ],
+    "a": 0,
+    "source": "Tự soạn",
+    "id": "2-m-ng-m-y-t-nh-v-internet-b-i-5-m-ng-m-y-t-nh-v-internet-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "2. Mạng máy tính và Internet",
+    "lesson": "Bài 5: Mạng máy tính và Internet",
+    "q": "Internet là gì?",
+    "options": [
+      "Mạng máy tính toàn cầu kết nối nhiều mạng nhỏ lại với nhau",
+      "Một phần mềm soạn thảo văn bản",
+      "Một loại cáp mạng",
+      "Một hệ điều hành"
+    ],
+    "a": 0,
+    "source": "Tự soạn",
+    "id": "2-m-ng-m-y-t-nh-v-internet-b-i-5-m-ng-m-y-t-nh-v-internet-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "2. Mạng máy tính và Internet",
+    "lesson": "Bài 5: Mạng máy tính và Internet",
+    "q": "Mạng WAN chỉ dùng trong phạm vi một tòa nhà. (Đúng hay Sai)",
+    "options": [
+      "Đúng",
+      "Sai"
+    ],
+    "a": 1,
+    "source": "Tự soạn",
+    "id": "2-m-ng-m-y-t-nh-v-internet-b-i-5-m-ng-m-y-t-nh-v-internet-mcq-003"
+  },
+  {
+    "type": "mcq",
+    "theme": "3. Đạo đức, pháp luật và văn hóa trong môi trường số",
+    "lesson": "Bài 6: Văn hóa và pháp luật trên môi trường số",
+    "q": "Hành vi nào sau đây là vi phạm bản quyền?",
+    "options": [
+      "Sử dụng ảnh có giấy phép và ghi rõ tác giả",
+      "Trích dẫn nội dung và ghi nguồn đầy đủ",
+      "Tải và chia sẻ phim/bài hát lậu lên mạng",
+      "Tự tạo nội dung của mình và đăng lên"
+    ],
+    "a": 2,
+    "source": "Tự soạn",
+    "id": "3-o-c-ph-p-lu-t-v-v-n-h-a-trong-m-i-tr-n-b-i-6-v-n-h-a-v-ph-p-lu-t-tr-n-m-i-tr-ng-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "3. Đạo đức, pháp luật và văn hóa trong môi trường số",
+    "lesson": "Bài 6: Văn hóa và pháp luật trên môi trường số",
+    "q": "“Dấu chân số” (digital footprint) là gì?",
+    "options": [
+      "Những thông tin/dữ liệu bạn để lại khi sử dụng Internet và dịch vụ số",
+      "Mật khẩu đăng nhập",
+      "Thiết bị phát Wi‑Fi",
+      "Một loại virus máy tính"
+    ],
+    "a": 0,
+    "source": "Tự soạn",
+    "id": "3-o-c-ph-p-lu-t-v-v-n-h-a-trong-m-i-tr-n-b-i-6-v-n-h-a-v-ph-p-lu-t-tr-n-m-i-tr-ng-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Thẻ <head> trong một tài liệu HTML dùng để:",
+    "options": [
+      "Chứa tiêu đề trang, các siêu dữ liệu (meta), liên kết tới CSS/JS",
+      "Hiển thị nội dung chính cho người dùng xem",
+      "Định nghĩa phần chân trang của trang web",
+      "Chứa nội dung hình ảnh chính của trang"
+    ],
+    "a": 0,
+    "explain": "Giải thích: Thẻ <head> chứa các thông tin như <title>, <meta>, <link>, <script> – những phần không hiển thị trực tiếp nội dung chính.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Trong HTML, thẻ nào sau đây là thẻ “self-closing” (không cần thẻ đóng)?",
+    "options": [
+      "<p>",
+      "<img>",
+      "<div>",
+      "<section>"
+    ],
+    "a": 1,
+    "explain": "Giải thích: <img> là thẻ chèn hình ảnh và không có nội dung lồng bên trong – trong HTML5 là thẻ void, không cần thẻ đóng.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Thuộc tính href thường dùng với thẻ nào?",
+    "options": [
+      "<img>",
+      "<a>",
+      "<div>",
+      "<span>"
+    ],
+    "a": 1,
+    "explain": "Giải thích: href xác định liên kết (URL) cho thẻ <a> (anchor).",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-003"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Thẻ <title> được đặt trong phần nào của trang HTML?",
+    "options": [
+      "Trong <body>",
+      "Trong <head>",
+      "Trong <footer>",
+      "Ngoài <html>"
+    ],
+    "a": 1,
+    "explain": "Giải thích: <title> là tiêu đề trang, nằm trong <head>, không hiển thị trong phần nội dung.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-004"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Một tài liệu HTML đúng chuẩn bắt đầu bằng dòng nào sau đây?",
+    "options": [
+      "<!DOCTYPE html>",
+      "<html>",
+      "<head>",
+      "<!-- DOCTYPE -->"
+    ],
+    "a": 0,
+    "explain": "Giải thích: Dòng <!DOCTYPE html> khai báo kiểu tài liệu cho HTML5, để trình duyệt hiểu cấu trúc.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-005"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Trong HTML, phân biệt element và tag là:",
+    "options": [
+      "Element là nội dung + tag, tag là cú pháp đánh dấu",
+      "Tag là nội dung, element là thẻ",
+      "Hai từ này đồng nghĩa hoàn toàn",
+      "Element chỉ dùng trong CSS, tag chỉ dùng trong HTML"
+    ],
+    "a": 0,
+    "explain": "Giải thích: “Tag” là phần đánh dấu mở/đóng (<...>), còn “element” là toàn bộ: tag mở + nội dung + tag đóng (nếu có) hoặc tag đơn.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-006"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Trong một trang web, nếu bạn muốn chia thành các phần như đầu trang, phần nội dung, phần chân trang, bạn nên dùng các thẻ nào sau đây?",
+    "options": [
+      "<header>, <main>, <footer>",
+      "<div>, <span>, <label>",
+      "<body>, <head>, <script>",
+      "<section>, <article>, <nav>"
+    ],
+    "a": 0,
+    "explain": "Giải thích: <header>, <main>, <footer> là thẻ semantic dùng để phân vùng phần đầu, phần chính và chân trang; cũng có thể dùng <section>, <nav> nhưng lựa chọn A rõ ràng hơn.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-007"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Thẻ <meta charset=\"UTF-8\"> trong <head> dùng để làm gì?",
+    "options": [
+      "Xác định font chữ cho văn bản",
+      "Xác định mã hóa ký tự, đảm bảo hiển thị tiếng Việt đúng",
+      "Liên kết tới file CSS",
+      "Khai báo title cho trang"
+    ],
+    "a": 1,
+    "explain": "Giải thích: Thuộc tính charset=\"UTF-8\" giúp xác định bảng mã ký tự, để trình duyệt biết cách hiển thị các ký tự đặc biệt, tiếng Việt.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-008"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Nếu bạn muốn nhúng một đoạn JavaScript vào trang HTML, bạn sẽ đặt nó trong thẻ nào?",
+    "options": [
+      "<style>",
+      "<script>",
+      "<link>",
+      "<meta>"
+    ],
+    "a": 1,
+    "explain": "Giải thích: <script> dùng để chèn mã JavaScript (nội tuyến hoặc tham chiếu file .js).",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-009"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Tại sao nên dùng các thẻ semantic (ví dụ <article>, <nav>, <section>) thay vì chỉ dùng <div>?",
+    "options": [
+      "Semantic giúp SEO và trợ năng hiểu rõ cấu trúc",
+      "Không có lợi gì cả, chỉ là thói quen",
+      "Chỉ dành cho HTML4, trong HTML5 không dùng",
+      "Semantic làm trang nặng hơn"
+    ],
+    "a": 0,
+    "explain": "Giải thích: Thẻ semantic cung cấp ý nghĩa rõ ràng cho nội dung, hỗ trợ công cụ tìm kiếm (SEO) và các công nghệ trợ năng như đọc màn hình.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-010"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Khi ta có đoạn HTML:\n<ul>\n<li>Item 1</li>\n<li>Item 2</li>\n</ul>\nThẻ <ul> và <li> thuộc loại gì?",
+    "options": [
+      "<ul> là thẻ inline, <li> là block",
+      "<ul> là thẻ block-level, <li> cũng là block-level",
+      "<ul> là void element",
+      "<li> không cần thẻ đóng"
+    ],
+    "a": 1,
+    "explain": "Giải thích: <ul> (unordered list) và <li> đều là thẻ block-level, mỗi li hiển thị trên dòng mới, chứa nội dung riêng.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-011"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Trong một thẻ <a>, nếu bạn viết target=\"_blank\", thì khi người dùng nhấn vào link sẽ:",
+    "options": [
+      "Mở link trong cùng tab",
+      "Ghi đè trang hiện tại",
+      "Mở link trong cửa sổ mới (tab mới)",
+      "Không làm gì"
+    ],
+    "a": 2,
+    "explain": "Giải thích: target=\"_blank\" là thuộc tính cho phép mở liên kết trong tab/cửa sổ mới, tránh thoát khỏi trang hiện tại.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-012"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Bạn có HTML:\n<img src=\"flower.jpg\" alt=\"Hoa\">\nNếu ảnh không tải được, nội dung nào hiển thị?",
+    "options": [
+      "Không gì cả",
+      "Tên file “flower.jpg”",
+      "Văn bản “Hoa”",
+      "Biểu tượng ảnh hỏng"
+    ],
+    "a": 2,
+    "explain": "Giải thích: Thuộc tính alt sẽ hiển thị văn bản thay thế nếu ảnh không tải được hoặc cho người dùng dùng trình đọc màn hình.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-013"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Bạn muốn tạo một liên kết tới “https://vnexpress.net” với văn bản “Tin tức”. Đoạn HTML nào đúng?",
+    "options": [
+      "<a src=\"https://vnexpress.net\">Tin tức</a>",
+      "<link href=\"https://vnexpress.net\">Tin tức</link>",
+      "<a href=\"https://vnexpress.net\">Tin tức</a>",
+      "<a href=vnexpress.net>“Tin tức”</a>"
+    ],
+    "a": 2,
+    "explain": "Giải thích: Cú pháp chính xác là dùng <a href=\"URL\">văn bản</a>.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-014"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Bạn muốn thêm comment (chú thích) trong mã HTML để người khác đọc nhưng không hiển thị trên trình duyệt, bạn sử dụng cú pháp:",
+    "options": [
+      "/* This is a comment */",
+      "// This is a comment",
+      "<!-- This is a comment -->",
+      "** This is a comment **"
+    ],
+    "a": 2,
+    "explain": "Giải thích: Trong HTML, comment viết bằng cú pháp <!-- ... -->.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-015"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Bạn đang viết một trang HTML có đôi dòng văn bản, muốn xuống dòng mà không thêm đoạn mới, bạn dùng thẻ nào?",
+    "options": [
+      "<br>",
+      "<p>",
+      "<div>",
+      "<hr>"
+    ],
+    "a": 0,
+    "explain": "Giải thích: <br> tạo một ngắt dòng (line break) tức thì, không tạo đoạn mới.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-016"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Trong HTML5, nếu bạn không viết thẻ đóng </li> cho phần tử <li>, điều gì xảy ra?",
+    "options": [
+      "Trình duyệt hiểu và tự thêm thẻ đóng",
+      "Lỗi cú pháp, trang không hiển thị",
+      "Nội dung sau li bị bỏ",
+      "Không ảnh hưởng gì"
+    ],
+    "a": 0,
+    "explain": "Giải thích: Trình duyệt hiện đại có khả năng sửa lỗi nhỏ, sẽ hiểu li và tự đóng nếu thiếu, nhưng vẫn nên luyện viết đúng cú pháp.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-017"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Tình huống: Bạn thiết kế một trang cá nhân gồm: header, menu điều hướng, phần bài viết, sidebar (tin liên quan), footer. Bạn muốn cấu trúc HTML sao cho rõ ràng và dễ đọc.\nTrong số các cấu trúc sau, cấu trúc nào hợp lý nhất?",
+    "options": [
+      "<div id=\"top\"></div>\n<div id=\"menu\"></div>\n<div id=\"content\"></div>\n<div id=\"side\"></div>\n<div id=\"bottom\"></div>",
+      "<header></header>\n<nav></nav>\n<section></section>\n<aside></aside>\n<footer></footer>",
+      "<body>\n<div>header</div>\n<div>nav</div>\n<div>article</div>\n<div>footer</div>\n</body>",
+      "<html>\n<header></header>\n<section></section>\n<footer></footer>\n</html>"
+    ],
+    "a": 1,
+    "explain": "Giải thích: Cấu trúc B dùng các thẻ semantic chuẩn (<header>, <nav>, <section>, <aside>, <footer>) tạo cấu trúc rõ nghĩa, dễ bảo trì, hỗ trợ SEO và trợ năng.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-018"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Tình huống: Bạn dùng thẻ <script> để tải file script.js trong phần <head> của trang HTML. Việc đặt script trong <head> (trước nội dung chính của trang) có thể gây ra ảnh hưởng gì về tốc độ tải và hiển thị trang?",
+    "options": [
+      "Không ảnh hưởng gì",
+      "Có thể làm chậm việc hiển thị nội dung, vì script bị tải và thực thi trước khi hiển thị nội dung",
+      "Script sẽ không chạy",
+      "Trang không hiển thị"
+    ],
+    "a": 1,
+    "explain": "Giải thích: Khi script trong head mà không dùng defer/async, trình duyệt có thể dừng việc hiển thị nội dung để tải và chạy script trước, dẫn tới chậm hiển thị. Trong thực tế, thường đặt script ở cuối body hoặc dùng attribute defer.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-019"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "Tình huống: Bạn viết một trang web tin tức. Bạn muốn sử dụng HTML sao cho người đọc màn hình (screen reader) dễ hiểu nội dung, và SEO tốt. Bạn nên chú trọng điều nào sau đây?",
+    "options": [
+      "Dùng càng nhiều <div> càng tốt để dễ fanciful styling",
+      "Bỏ qua thẻ <alt> cho ảnh vì không quan trọng",
+      "Dùng thẻ semantic đúng nơi: <article> cho mỗi bài, <header> cho đầu trang, thẻ heading <h1>…<h2>… theo cấu trúc hợp lý",
+      "Nhét tất cả nội dung vào <p>"
+    ],
+    "a": 2,
+    "explain": "Giải thích: Sử dụng thẻ semantic giúp cấu trúc nội dung rõ ràng cho trình đọc màn hình và công cụ tìm kiếm – ví dụ mỗi bài viết nên đặt trong <article>, tiêu đề dùng <h1>, <h2>, ảnh có alt, v.v.",
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-mcq-020"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "(Cấu trúc cơ bản của tài liệu HTML)\nPhát biểu nào sau đây là ĐÚNG?",
+    "statements": [
+      "Tài liệu HTML bắt đầu bằng <!DOCTYPE html> để xác định loại tài liệu. (Nhận biết)",
+      "Thẻ <html> bao bọc toàn bộ nội dung tài liệu HTML. (Nhận biết)",
+      "Nội dung hiển thị chính cho người dùng được đặt trong thẻ <head>. (Thông hiểu)",
+      "Thẻ <title> phải được đặt trong phần <body> mới đúng chuẩn. (Vận dụng)\nGiải thích:\n<head> chứa thông tin siêu dữ liệu; nội dung hiển thị chính nằm trong <body>.\n<title> luôn phải nằm trong <head>, không phải <body>."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-tf4-001"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "(Thẻ semantic và lợi ích)\nPhát biểu nào là ĐÚNG?",
+    "statements": [
+      "Các thẻ như <header>, <nav>, <section> giúp làm rõ ý nghĩa nội dung của từng phần trong trang. (Thông hiểu)",
+      "Dùng <div> thay thế cho mọi thẻ semantic sẽ giúp code ngắn hơn và dễ đọc hơn. (Nhận biết)",
+      "Thẻ <aside> thường chứa thông tin phụ, như quảng cáo hoặc liên kết liên quan. (Nhận biết)",
+      "Việc dùng thẻ semantic giúp trình duyệt tải trang nhanh hơn. (Vận dụng)\nGiải thích:\nThẻ semantic giúp tổ chức nội dung có nghĩa, nhưng không ảnh hưởng trực tiếp đến tốc độ tải trang."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-tf4-002"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "(Thuộc tính và tương tác)\nPhát biểu nào là ĐÚNG?",
+    "statements": [
+      "target=\"_blank\" cho phép mở liên kết trong tab mới. (Nhận biết)",
+      "Thuộc tính class giúp định danh kiểu định dạng CSS cho nhiều phần tử. (Thông hiểu)",
+      "Thuộc tính id có thể dùng nhiều lần trong một trang HTML. (Nhận biết)",
+      "Một thẻ HTML có thể chứa cả class và id cùng lúc. (Vận dụng)\nGiải thích:\nid là duy nhất trong một trang HTML.\nclass có thể lặp lại và áp dụng cho nhiều phần tử.\nCó thể dùng đồng thời class và id trên cùng một thẻ."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-tf4-003"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "(Thực hành chèn ảnh và liên kết)\nPhát biểu nào là ĐÚNG?",
+    "statements": [
+      "<img src=\"flower.jpg\"> sẽ hiển thị ảnh “flower.jpg”. (Nhận biết)",
+      "Không cần thuộc tính alt vì ảnh đã có tên file. (Thông hiểu)",
+      "Thẻ <a> có thể bao quanh cả đoạn văn để tạo vùng liên kết. (Vận dụng)",
+      "Không thể dùng ảnh làm liên kết. (Nhận biết)\nGiải thích:\nDùng ảnh làm liên kết là hoàn toàn hợp lệ: <a href=\"...\"><img src=\"...\"></a>.\nalt rất quan trọng cho SEO và trợ năng, không nên bỏ."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-tf4-004"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 7: HTML và cấu trúc trang web",
+    "q": "(Cấu trúc trang tin tức)\nPhát biểu nào là ĐÚNG?",
+    "statements": [
+      "Mỗi bài viết trên trang tin nên đặt trong thẻ <article>. (Thông hiểu)",
+      "Thẻ <section> dùng để chia nội dung thành các khối có liên quan. (Nhận biết)",
+      "Thẻ <header> chỉ được dùng một lần duy nhất trên trang. (Nhận biết)",
+      "Dùng đúng thẻ semantic giúp hỗ trợ SEO và trình đọc màn hình. (Vận dụng)\nGiải thích:\n<header> có thể xuất hiện nhiều lần (mỗi section hoặc article đều có thể có header riêng)."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "source": "Bài 7. HTML và cấu trúc trang web.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-7-html-v-c-u-tr-c-trang-web-tf4-005"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Trong HTML, để hiển thị nội dung văn bản, ta sử dụng cặp thẻ nào?",
+    "options": [
+      "<head>...</head>",
+      "<body>...</body>",
+      "<html>...</html>",
+      "<title>...</title>"
+    ],
+    "a": 1,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Thẻ nào dùng để tạo tiêu đề lớn nhất trong văn bản HTML?",
+    "options": [
+      "<h1>",
+      "<h6>",
+      "<title>",
+      "<p>"
+    ],
+    "a": 0,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Thẻ <p> dùng để:",
+    "options": [
+      "Chèn ảnh vào trang web",
+      "Tạo đoạn văn bản",
+      "Tạo đường liên kết",
+      "Tạo danh sách"
+    ],
+    "a": 1,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-003"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Thẻ nào sau đây không phải là thẻ định dạng văn bản trong HTML?",
+    "options": [
+      "<b>",
+      "<i>",
+      "<u>",
+      "<div>"
+    ],
+    "a": 3,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.8,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-004"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Thuộc tính align của thẻ <p> dùng để:",
+    "options": [
+      "Chỉnh màu chữ",
+      "Căn lề văn bản",
+      "Đặt kích thước chữ",
+      "Tạo tiêu đề"
+    ],
+    "a": 1,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-005"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Thẻ <b> và <strong> đều giúp chữ in đậm. Điểm khác biệt là:",
+    "options": [
+      "<b> không in đậm, <strong> mới in đậm",
+      "<b> chỉ in đậm về hình thức, <strong> có ý nghĩa nhấn mạnh nội dung",
+      "<strong> là thẻ cũ, <b> là thẻ mới",
+      "Cả hai thẻ giống hệt nhau"
+    ],
+    "a": 1,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-006"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Khi muốn thay đổi màu chữ trong HTML, ta dùng thuộc tính nào?",
+    "options": [
+      "font",
+      "color",
+      "size",
+      "style"
+    ],
+    "a": 1,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-007"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Khi viết <font face=\"Times New Roman\">, thuộc tính face có tác dụng:",
+    "options": [
+      "Căn lề văn bản",
+      "Chọn kiểu chữ",
+      "Đổi kích thước chữ",
+      "Tô màu nền"
+    ],
+    "a": 1,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-008"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Trong HTML5, thẻ <font> được thay thế bởi:",
+    "options": [
+      "Thẻ <style> / CSS",
+      "Thẻ <strong>",
+      "Thẻ <span>",
+      "Thẻ <body>"
+    ],
+    "a": 0,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-009"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Một học sinh viết:\n<h2 align=\"center\">Chào mừng đến với website lớp 12A6</h2>\nKết quả sẽ là:",
+    "options": [
+      "Dòng tiêu đề cấp 2 căn giữa",
+      "Dòng tiêu đề cấp 2 căn trái",
+      "Dòng tiêu đề cấp 1 căn giữa",
+      "Dòng chữ bình thường căn phải"
+    ],
+    "a": 0,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-010"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Khi cần tô đậm và in nghiêng một phần nội dung trong đoạn văn, ta có thể kết hợp:",
+    "options": [
+      "<b><i>...</i></b>",
+      "<p><strong>...</strong></p>",
+      "<u><i>...</i></u>",
+      "<div><b>...</b></div>"
+    ],
+    "a": 0,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-011"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Khi định dạng văn bản bằng HTML, tại sao cần dùng đúng cấu trúc thẻ mở và đóng?",
+    "options": [
+      "Để trang hiển thị chính xác và dễ bảo trì",
+      "Vì bắt buộc để HTML chạy được",
+      "Vì giúp văn bản đẹp hơn",
+      "Vì giúp tiết kiệm bộ nhớ"
+    ],
+    "a": 0,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-012"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Học sinh muốn tạo đoạn giới thiệu bản thân căn giữa, chữ xanh, in nghiêng. Lệnh nào phù hợp nhất?",
+    "options": [
+      "<p align=\"center\" style=\"color:blue;\"><i>Tôi là học sinh lớp 12A6</i></p>",
+      "<p style=\"align:center;color:blue;\">Tôi là học sinh lớp 12A6</p>",
+      "<p align=\"middle\" color=\"blue\">Tôi là học sinh lớp 12A6</p>",
+      "<center color=\"blue\">Tôi là học sinh lớp 12A6</center>"
+    ],
+    "a": 0,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-013"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Khi muốn tạo đoạn văn bản có phông chữ Arial, cỡ chữ 4, màu đỏ, ta viết:",
+    "options": [
+      "<font size=\"4\" color=\"red\" face=\"Arial\">Nội dung</font>",
+      "<font color=\"4\" size=\"Arial\" face=\"red\">Nội dung</font>",
+      "<text style=\"Arial;4;red\">Nội dung</text>",
+      "<p size=\"4\" color=\"red\">Nội dung</p>"
+    ],
+    "a": 0,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-014"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Khi viết website trường học, để tiêu đề “Thông báo học tập” nổi bật nhất, bạn chọn cách nào?",
+    "options": [
+      "Dùng <h1>",
+      "Dùng <h3>",
+      "Dùng <b>",
+      "Dùng <i>"
+    ],
+    "a": 0,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-015"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Trong thực tế, nếu một phần văn bản cần nhấn mạnh ý nghĩa “quan trọng” hơn là chỉ in đậm hình thức, nên dùng:",
+    "options": [
+      "<b>",
+      "<strong>",
+      "<u>",
+      "<big>"
+    ],
+    "a": 1,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-016"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Khi một trang web dùng nhiều kiểu chữ khác nhau không hợp lý (phông Times xen Comic Sans), hậu quả là:",
+    "options": [
+      "Gây rối mắt, thiếu chuyên nghiệp",
+      "Tăng tốc độ tải trang",
+      "Làm đẹp hơn",
+      "Không ảnh hưởng gì"
+    ],
+    "a": 0,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-017"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Một bạn tạo đoạn văn bằng code sau:\n<p align=\"right\" style=\"font-size:20px;color:green;\">\n Em yêu môn Tin học!\n</p>\nNếu muốn dòng chữ vừa căn giữa, vừa màu xanh đậm hơn, bạn nên:",
+    "options": [
+      "Giữ nguyên code",
+      "Đổi align=\"center\" và color:\"darkgreen\"",
+      "Thêm thẻ <center> bọc ngoài",
+      "Đổi <p> thành <div>"
+    ],
+    "a": 1,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-018"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Bạn được giao thiết kế phần “Giới thiệu bản thân” trên website lớp. Làm thế nào để đoạn văn vừa dễ đọc vừa thể hiện phong cách riêng?",
+    "options": [
+      "Dùng tất cả các thẻ <b>, <u>, <i> cùng lúc",
+      "Dùng màu nền nổi bật như đỏ, vàng",
+      "Dùng định dạng hài hòa, nhấn mạnh ý chính bằng <strong> và màu dịu",
+      "Dùng cỡ chữ cực lớn để gây chú ý"
+    ],
+    "a": 2,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-019"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Khi trình bày nội dung HTML dài, bạn nên tổ chức các phần văn bản bằng cách nào?",
+    "options": [
+      "Dùng nhiều <p> và tiêu đề <h2>, <h3> để phân đoạn rõ",
+      "Gộp tất cả vào một thẻ <p>",
+      "Dùng <b> cho toàn bộ nội dung",
+      "Viết liền không xuống dòng"
+    ],
+    "a": 0,
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-mcq-020"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Cấu trúc cơ bản của trang HTML Ngữ cảnh: Khi học sinh tạo một trang web đầu tiên bằng HTML.\nXét các phát biểu sau:",
+    "statements": [
+      "Thẻ <html> dùng để khai báo phần đầu của trang web.",
+      "Thẻ <body> chứa toàn bộ nội dung hiển thị của trang web.",
+      "Thẻ <head> chứa thông tin tiêu đề, mô tả và liên kết CSS.",
+      "Thẻ <p> là thẻ khai báo phần chân trang."
+    ],
+    "a": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-tf4-001"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Thẻ định dạng văn bản Ngữ cảnh: Bạn Lan soạn thảo bài giới thiệu lớp học.",
+    "statements": [
+      "Thẻ <b> giúp chữ in đậm.",
+      "Thẻ <i> giúp chữ in nghiêng.",
+      "Thẻ <font> giúp tạo danh sách liệt kê.",
+      "Thẻ <u> giúp tạo tiêu đề lớn nhất."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-tf4-002"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Thuộc tính của thẻ Ngữ cảnh: Khi định dạng một đoạn văn bằng HTML.",
+    "statements": [
+      "align dùng để căn lề nội dung văn bản.",
+      "color là thuộc tính của thẻ <p> để đổi màu chữ.",
+      "face trong thẻ <font> dùng để chọn kiểu chữ.",
+      "size trong <font> có thể nhận giá trị từ 1 đến 7."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-tf4-003"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Ý nghĩa ngữ nghĩa của thẻ Ngữ cảnh: Khi giáo viên dạy về HTML ngữ nghĩa (semantic HTML).",
+    "statements": [
+      "<strong> có tác dụng tương tự <b> nhưng mang ý nghĩa nhấn mạnh nội dung.",
+      "<em> làm chữ in nghiêng và thể hiện nhấn mạnh.",
+      "<b> thể hiện sự quan trọng về ngữ nghĩa trong văn bản.",
+      "<i> không bao giờ nên dùng vì đã bị loại bỏ khỏi HTML5."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-tf4-004"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Cấu trúc lồng thẻ Ngữ cảnh: Học sinh viết đoạn văn có in đậm và nghiêng cùng lúc.",
+    "statements": [
+      "<b><i>Xin chào!</i></b> là cú pháp hợp lệ.",
+      "<b><i>Xin chào!</b></i> là cú pháp hợp lệ.",
+      "Thẻ mở và đóng phải khớp thứ tự lồng nhau.",
+      "Có thể đóng thẻ theo bất kỳ thứ tự nào miễn là đủ số lượng."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-tf4-005"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Định dạng tiêu đề Ngữ cảnh: Khi tạo tiêu đề trang web cho “Trường THPT Chơn Thành”.",
+    "statements": [
+      "<h1> là thẻ tiêu đề lớn nhất.",
+      "<h6> là thẻ tiêu đề nhỏ nhất.",
+      "Có thể dùng nhiều thẻ <h1> trong một trang HTML.",
+      "<title> là tiêu đề hiển thị trên trang, nằm trong phần <body>"
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-tf4-006"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Phối hợp định dạng\nNgữ cảnh: Bạn Nam muốn trình bày đoạn giới thiệu trang web của lớp.",
+    "statements": [
+      "Có thể kết hợp nhiều thuộc tính trong cùng thẻ bằng style=\"\".",
+      "Viết <p align=center color=red> là đúng cú pháp.",
+      "CSS có thể thay thế hầu hết các thẻ định dạng trực tiếp.",
+      "Chỉ nên dùng thẻ <font> để định dạng vì ngắn gọn hơn CSS."
+    ],
+    "a": [
+      false,
+      true,
+      false,
+      false
+    ],
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-tf4-007"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Thực hành căn chỉnh và màu sắc\nNgữ cảnh: Trang web của lớp cần căn giữa tiêu đề màu xanh.",
+    "statements": [
+      "<h2 align=\"center\"> là cú pháp đúng.",
+      "style=\"text-align:center; color:blue;\" có thể dùng cho <h2>.",
+      "align=\"middle\" là cú pháp hợp lệ.",
+      "color:\"blue\" là cú pháp hợp lệ."
+    ],
+    "a": [
+      false,
+      true,
+      false,
+      false
+    ],
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-tf4-008"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Ứng dụng thực tế\nNgữ cảnh: Khi trình bày nội dung bài “Giới thiệu bản thân”.",
+    "statements": [
+      "Nên dùng <h2> cho tiêu đề “Thông tin cá nhân”.",
+      "Dùng <b> để in đậm toàn bộ nội dung sẽ giúp dễ đọc hơn.",
+      "Sử dụng phối hợp màu sắc hài hòa giúp trang dễ nhìn.",
+      "Viết toàn bộ văn bản bằng chữ hoa giúp trang nổi bật."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-tf4-009"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 8: Định dạng văn bản",
+    "q": "Chuẩn hoá HTML và thực hành\nNgữ cảnh: Khi học sinh kiểm tra lỗi HTML trong trình duyệt.",
+    "statements": [
+      "Quên đóng thẻ <p> có thể làm sai bố cục hiển thị.",
+      "Trình duyệt sẽ tự động sửa mọi lỗi cú pháp HTML.",
+      "Có thể dùng công cụ Validate HTML để kiểm tra lỗi.",
+      "Không cần chú ý lỗi vì trình duyệt luôn hiểu được nội dung. \nCÂU HỎI TỰ LUẬN"
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "source": "Bài 8. Định dạng văn bản_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-8-nh-d-ng-v-n-b-n-tf4-010"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Trang web của Minh cần liệt kê danh sách các môn học yêu thích theo thứ tự. Thẻ HTML nào phù hợp nhất?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<dl>",
+      "<li>"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Trong danh sách HTML, mỗi mục danh sách được tạo bởi thẻ nào?",
+    "options": [
+      "<li>",
+      "<ol>",
+      "<dt>",
+      "<dd>"
+    ],
+    "a": 0,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Để tạo bảng trong HTML, ta sử dụng cặp thẻ nào?",
+    "options": [
+      "<table> … </table>",
+      "<tab> … </tab>",
+      "<tb> … </tb>",
+      "<board> … </board>"
+    ],
+    "a": 0,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-003"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Mỗi dòng trong bảng HTML được bắt đầu bằng thẻ nào?",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<th>",
+      "<row>"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-004"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Mỗi ô dữ liệu trong bảng được đặt trong thẻ nào?",
+    "options": [
+      "<cell>",
+      "<th>",
+      "<td>",
+      "<tr>"
+    ],
+    "a": 2,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-005"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Trong bảng HTML, để tạo tiêu đề cột có chữ in đậm và căn giữa mặc định, dùng thẻ nào?",
+    "options": [
+      "<td>",
+      "<th>",
+      "<caption>",
+      "<head>"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-006"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Khi nào nên dùng danh sách không thứ tự (<ul>) thay vì danh sách có thứ tự (<ol>)?",
+    "options": [
+      "Khi các mục có thứ tự rõ ràng",
+      "Khi các mục không quan trọng về thứ tự",
+      "Khi cần hiển thị bảng dữ liệu",
+      "Khi cần tạo menu có đánh số"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-007"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Trong bảng HTML, thuộc tính border=\"1\" có tác dụng gì?",
+    "options": [
+      "Tô màu viền",
+      "Làm viền dày hơn",
+      "Hiển thị viền bảng",
+      "Tạo màu nền"
+    ],
+    "a": 2,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-008"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Thẻ <caption> trong bảng HTML có chức năng gì?",
+    "options": [
+      "Tạo dòng tiêu đề bảng",
+      "Ghi chú mô tả bảng (tiêu đề bảng)",
+      "Chèn ảnh vào bảng",
+      "Căn chỉnh nội dung bảng"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-009"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Trong đoạn mã HTML:\n<ol type=\"A\">\n <li>HTML</li>\n <li>CSS</li>\n</ol>\nKết quả hiển thị là gì?",
+    "options": [
+      "Danh sách có số thứ tự 1,2",
+      "Danh sách có ký tự a,b",
+      "Danh sách có ký tự A,B",
+      "Danh sách không có ký hiệu"
+    ],
+    "a": 2,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-010"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Nếu muốn hiển thị danh sách mô tả (tên – định nghĩa), ta nên dùng nhóm thẻ nào?",
+    "options": [
+      "<ul>, <li>",
+      "<ol>, <li>",
+      "<dl>, <dt>, <dd>",
+      "<table>, <tr>"
+    ],
+    "a": 2,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-011"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Trong bảng, để gộp 2 ô liền nhau theo hàng ngang, dùng thuộc tính nào?",
+    "options": [
+      "rowspan",
+      "colspan",
+      "merge",
+      "align"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-012"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Trang web bán hàng muốn hiển thị bảng “Giá sản phẩm” gồm cột Tên – Giá – Ghi chú. Thẻ nào phù hợp để tạo phần tiêu đề cột?",
+    "options": [
+      "<td>",
+      "<th>",
+      "<tr>",
+      "<head>"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-013"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Lan muốn tạo danh sách món ăn yêu thích không thứ tự. Đoạn mã đúng là:",
+    "options": [
+      "<ol><li>Bún</li><li>Phở</li></ol>",
+      "<ul><li>Bún</li><li>Phở</li></ul>",
+      "<li><ul>Bún</ul><ul>Phở</ul></li>",
+      "<dl><dt>Bún</dt><dt>Phở</dt></dl>"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-014"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Trong một trang web giới thiệu lớp học, để liệt kê danh sách học sinh theo thứ tự điểm từ cao đến thấp, nên dùng loại danh sách nào?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<dl>",
+      "<table>"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-015"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Nếu cần trình bày danh sách tên các thành viên lớp và ngày sinh của họ, cấu trúc bảng tối thiểu gồm những thẻ nào?",
+    "options": [
+      "<table>, <tr>, <td>",
+      "<table>, <td>",
+      "<ul>, <li>",
+      "<tr>, <th>"
+    ],
+    "a": 0,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-016"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Trong danh sách menu trang web, muốn tạo danh sách lồng nhau (menu chính và menu con), ta sử dụng:",
+    "options": [
+      "Một <ul> duy nhất",
+      "Danh sách <ul> lồng trong <li>",
+      "<dl> và <dd>",
+      "<table>"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-017"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Khi thiết kế website trường học, giáo viên muốn tạo bảng “Kết quả học tập” có 2 hàng tiêu đề: hàng đầu ghi tên trường, hàng dưới ghi tên các môn. Thuộc tính nào cần kết hợp?",
+    "options": [
+      "rowspan",
+      "colspan",
+      "border",
+      "align"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-018"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Bạn đang thiết kế một bảng có nhiều cột nhưng muốn mỗi cột có độ rộng khác nhau. Cách tốt nhất là:",
+    "options": [
+      "Dùng colspan",
+      "Dùng thuộc tính width cho từng cột hoặc CSS",
+      "Dùng <th> cho tất cả các ô",
+      "Dùng danh sách thay thế bảng"
+    ],
+    "a": 1,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-019"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "Trong website giới thiệu sản phẩm, bạn cần tạo bảng có 2 cột: hình ảnh và mô tả chi tiết. Để trình bày đẹp và linh hoạt hơn, giải pháp nên là:",
+    "options": [
+      "Dùng <table> với rowspan",
+      "Dùng danh sách mô tả <dl>",
+      "Dùng <div> kết hợp CSS grid/flex",
+      "Dùng <ol> có hình ảnh"
+    ],
+    "a": 2,
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-mcq-020"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "(Ngữ cảnh: Trang web lớp 12A6 đăng danh sách học sinh)\nMinh dùng HTML để tạo danh sách các bạn trong lớp. Xét các phát biểu sau:",
+    "statements": [
+      "Thẻ <ul> dùng để tạo danh sách có thứ tự.",
+      "Thẻ <li> dùng để khai báo một mục trong danh sách.",
+      "Thẻ <ol> tạo danh sách có đánh số thứ tự.",
+      "Có thể lồng danh sách <ul> vào trong <li>."
+    ],
+    "a": [
+      false,
+      true,
+      true,
+      true
+    ],
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-tf4-001"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "(Ngữ cảnh: Trang web câu lạc bộ Tin học liệt kê các kỹ năng cần có)",
+    "statements": [
+      "<ul> và <ol> đều dùng để tạo danh sách.",
+      "Mỗi phần tử trong danh sách phải nằm trong thẻ <li>.",
+      "Không thể dùng danh sách trong danh sách khác.",
+      "Danh sách giúp trình bày nội dung ngắn gọn, dễ nhìn."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-tf4-002"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "(Ngữ cảnh: Thiết kế website giới thiệu môn học)",
+    "statements": [
+      "Thẻ <dl> dùng cho danh sách mô tả (thuật ngữ – định nghĩa).",
+      "Trong danh sách mô tả, <dt> chứa nội dung mô tả, còn <dd> chứa tên thuật ngữ.",
+      "Một danh sách mô tả có thể chứa nhiều cặp <dt> và <dd>.",
+      "<dl> có thể thay thế cho <ul> trong mọi trường hợp."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-tf4-003"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "(Ngữ cảnh: Học sinh tạo trang web “Sở thích cá nhân”)",
+    "statements": [
+      "Danh sách có thể hiển thị bằng dấu chấm hoặc số.",
+      "Có thể thay đổi kiểu đánh dấu bằng thuộc tính type.",
+      "Trong <ol>, type=\"A\" hiển thị số thứ tự là A, B, C.",
+      "Trong <ul>, type=\"1\" sẽ hiển thị số thứ tự 1, 2, 3."
+    ],
+    "a": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-tf4-004"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "(Ngữ cảnh: Trang web câu lạc bộ muốn tạo bảng điểm)",
+    "statements": [
+      "Thẻ <table> dùng để khai báo bảng.",
+      "Mỗi hàng bảng bắt đầu bằng <tr>.",
+      "Mỗi ô dữ liệu nằm trong <td>.",
+      "Cột tiêu đề phải nằm trong <td> để hiển thị in đậm."
+    ],
+    "a": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-tf4-005"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "(Ngữ cảnh: Bảng thống kê học sinh đạt giải)",
+    "statements": [
+      "<th> dùng để tạo ô tiêu đề trong bảng.",
+      "<tr> là viết tắt của table row.",
+      "<td> là viết tắt của table design.",
+      "Bảng phải bắt đầu bằng <table> và kết thúc bằng </table>."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-tf4-006"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "(Ngữ cảnh: Thiết kế bảng “Thông tin cá nhân”)",
+    "statements": [
+      "<caption> dùng để đặt tiêu đề cho bảng.",
+      "<caption> luôn nằm ở cuối bảng.",
+      "Có thể thêm nhiều thẻ <caption> trong một bảng.",
+      "Thuộc tính border=\"1\" giúp hiển thị đường viền bảng."
+    ],
+    "a": [
+      true,
+      false,
+      false,
+      true
+    ],
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-tf4-007"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "(Ngữ cảnh: Học sinh trình bày kết quả học tập bằng bảng)",
+    "statements": [
+      "rowspan dùng để gộp ô theo chiều dọc.",
+      "colspan dùng để gộp ô theo chiều ngang.",
+      "Hai thuộc tính này có thể kết hợp trong cùng 1 bảng.",
+      "Dùng border-collapse: collapse; để gộp ô thành một ô duy nhất."
+    ],
+    "a": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-tf4-008"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "(Ngữ cảnh: Trang web giới thiệu CLB có danh sách thành viên)",
+    "statements": [
+      "Mỗi bảng HTML phải có ít nhất 1 hàng <tr>.",
+      "Bảng có thể tồn tại mà không có thẻ <td>.",
+      "Có thể đặt danh sách <ul> bên trong ô <td>.",
+      "Không thể chèn hình ảnh vào bảng."
+    ],
+    "a": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-tf4-009"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 9: Tạo danh sách, bảng",
+    "q": "(Ngữ cảnh: Thiết kế trang web trường học với bố cục đẹp)",
+    "statements": [
+      "Bảng HTML có thể dùng để bố trí toàn bộ bố cục trang web.",
+      "Ngày nay người ta khuyến khích dùng CSS thay vì bảng để chia bố cục.",
+      "<table> nên dùng cho việc hiển thị dữ liệu, không phải dàn trang.",
+      "CSS grid và flexbox có thể thay thế hoàn toàn <table> trong bố cục.\nCÂU HỎI TỰ LUẬN"
+    ],
+    "a": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "source": "Bài 9. Tạo danh sách, bảng_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-9-t-o-danh-s-ch-b-ng-tf4-010"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Khi truy cập vào một trang web, người dùng nhấp chuột vào dòng chữ “Xem thêm thông tin” và được chuyển sang trang khác. Dòng chữ đó được gọi là gì trong HTML?",
+    "options": [
+      "Tiêu đề trang",
+      "Đường dẫn (link)",
+      "Siêu liên kết (hyperlink)",
+      "Nút lệnh (button)"
+    ],
+    "a": 2,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Thẻ nào trong HTML được dùng để tạo siêu liên kết?",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "a": 1,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Trong đoạn mã HTML sau, thuộc tính href có ý nghĩa gì?\n<a href=\"https://www.moet.gov.vn\">Bộ Giáo dục và Đào tạo</a>",
+    "options": [
+      "Hiển thị nội dung liên kết",
+      "Chỉ định địa chỉ đích của liên kết",
+      "Đặt màu cho liên kết",
+      "Tạo hiệu ứng khi rê chuột"
+    ],
+    "a": 1,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-003"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Trong HTML, đoạn mã nào dưới đây tạo liên kết đến trang web ngoài?",
+    "options": [
+      "<a href=\"gioithieu.html\">Giới thiệu</a>",
+      "<a href=\"https://thptchonhanh.edu.vn\">Trang Trường</a>",
+      "<a href=\"#top\">Lên đầu trang</a>",
+      "<a href=\"/index.html\">Trang chủ</a>"
+    ],
+    "a": 1,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-004"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Trong cấu trúc trang web, các thẻ <a> giúp:",
+    "options": [
+      "Tăng tốc độ tải trang",
+      "Kết nối các trang và tài nguyên web với nhau",
+      "Hiển thị nội dung văn bản",
+      "Căn chỉnh bố cục"
+    ],
+    "a": 1,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-005"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Phần tử siêu văn bản (hypertext) khác văn bản thông thường ở điểm nào?",
+    "options": [
+      "Có màu chữ đẹp hơn",
+      "Có thể chứa hình ảnh",
+      "Có liên kết tới nội dung khác",
+      "Phải viết bằng tiếng Anh"
+    ],
+    "a": 2,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-006"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Trong HTML, liên kết có thể trỏ đến:",
+    "options": [
+      "Chỉ trang chủ website",
+      "Một đoạn trong cùng trang hoặc một trang khác",
+      "Chỉ tệp hình ảnh",
+      "Chỉ tệp văn bản"
+    ],
+    "a": 1,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-007"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Đường dẫn tuyệt đối (absolute path) có đặc điểm là:",
+    "options": [
+      "Chỉ rõ toàn bộ địa chỉ URL của tài nguyên",
+      "Chỉ định vị trí tệp trong thư mục hiện hành",
+      "Không thể dùng trong HTML5",
+      "Chỉ dùng để liên kết hình ảnh"
+    ],
+    "a": 1,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-008"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Đường dẫn tương đối (relative path) được sử dụng khi:",
+    "options": [
+      "Tệp cần truy cập nằm ngoài thư mục hiện hành",
+      "Website có nhiều máy chủ",
+      "Các tệp liên kết nằm trong cùng thư mục hoặc thư mục con",
+      "Không có quyền truy cập Internet"
+    ],
+    "a": 2,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-009"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Khi thiết kế website cá nhân, vì sao nên ưu tiên dùng đường dẫn tương đối thay vì tuyệt đối?",
+    "options": [
+      "Dễ di chuyển thư mục web giữa các máy",
+      "Tải nhanh hơn",
+      "Màu liên kết đẹp hơn",
+      "Dễ cập nhật nội dung hơn"
+    ],
+    "a": 0,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-010"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Trong đoạn mã:\n<a href=\"#contact\">Liên hệ</a>\nLiên kết này có tác dụng:",
+    "options": [
+      "Chuyển đến website khác",
+      "Mở tệp mới",
+      "Chuyển đến vị trí có id=\"contact\" trong cùng trang",
+      "Chạy tệp JavaScript"
+    ],
+    "a": 2,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-011"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Khi thêm thuộc tính target=\"_blank\" vào thẻ <a>, điều gì xảy ra?",
+    "options": [
+      "Liên kết mở trong cùng tab hiện tại",
+      "Liên kết mở trong cửa sổ mới hoặc tab mới",
+      "Liên kết bị vô hiệu hóa",
+      "Liên kết bị đổi màu"
+    ],
+    "a": 1,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-012"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Một học sinh muốn tạo liên kết đến tệp gioithieu.html nằm trong cùng thư mục. Mã HTML nào đúng?",
+    "options": [
+      "<a href=\"gioithieu.html\">Giới thiệu</a>",
+      "<a href=\"https://gioithieu.html\">Giới thiệu</a>",
+      "<a link=\"gioithieu.html\">Giới thiệu</a>",
+      "<a name=\"gioithieu.html\">Giới thiệu</a>"
+    ],
+    "a": 0,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-013"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Để liên kết tới phần “Giới thiệu” trong cùng trang web, cần thêm thuộc tính nào vào thẻ tiêu đề đích?",
+    "options": [
+      "link=\"gioithieu\"",
+      "href=\"#gioithieu\"",
+      "id=\"gioithieu\"",
+      "target=\"gioithieu\""
+    ],
+    "a": 2,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-014"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Đoạn mã sau có lỗi gì?\n<a>https://thptchonhanh.edu.vn</a>",
+    "options": [
+      "Thiếu thuộc tính href",
+      "Sai thẻ kết thúc",
+      "Không được dùng https",
+      "Cú pháp thừa dấu ngoặc"
+    ],
+    "a": 0,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-015"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Một học sinh viết:\n<a href=\"https://youtube.com\" target=\"_blank\">Xem video</a>\nCú pháp trên giúp:",
+    "options": [
+      "Mở video trong cùng tab hiện tại",
+      "Mở video ở tab mới của trình duyệt",
+      "Tải tệp về máy",
+      "Phát âm thanh tự động"
+    ],
+    "a": 1,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-016"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Nếu muốn chèn liên kết đến địa chỉ email của giáo viên chủ nhiệm, cú pháp đúng là:",
+    "options": [
+      "<a href=\"http://email@gmail.com\">Liên hệ</a>",
+      "<a href=\"mailto:giaovien@gmail.com\">Liên hệ</a>",
+      "<a href=\"email:giaovien@gmail.com\">Liên hệ</a>",
+      "<a href=\"#gmail.com\">Liên hệ</a>"
+    ],
+    "a": 1,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-017"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Nhóm HS thiết kế website lớp 12A6, lưu tệp gioithieu.html trong thư mục con pages. Để liên kết từ trang chính index.html đến tệp này, cú pháp đúng là:",
+    "options": [
+      "<a href=\"gioithieu.html\">Giới thiệu</a>",
+      "<a href=\"/pages/gioithieu.html\">Giới thiệu</a>",
+      "<a href=\"pages/gioithieu.html\">Giới thiệu</a>",
+      "<a href=\"https://pages/gioithieu.html\">Giới thiệu</a>"
+    ],
+    "a": 2,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-018"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Trong dự án web trường học, HS muốn tạo menu có liên kết mở “Thông báo” trong cùng tab, và “Fanpage trường” trong tab mới. Hai đoạn mã nào phù hợp nhất?",
+    "options": [
+      "<a href=\"thongbao.html\">Thông báo</a> và <a href=\"https://facebook.com/thptchonhanh\" target=\"_blank\">Fanpage</a>",
+      "<a href=\"thongbao.html\" target=\"_blank\">Thông báo</a> và <a href=\"facebook.html\">Fanpage</a>",
+      "<a href=\"#thongbao\">Thông báo</a> và <a href=\"mailto:thptchonhanh@gmail.com\">Fanpage</a>",
+      "<a href=\"https://facebook.com/thptchonhanh\">Thông báo</a> và <a href=\"thongbao.html\">Fanpage</a>"
+    ],
+    "a": 0,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-019"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 10: Tạo liên kết",
+    "q": "Một lập trình viên muốn tạo liên kết văn bản “Xem bản đồ trường” dẫn đến bản đồ Google Map trong khung nội tuyến của trang web. Cú pháp tối ưu là:",
+    "options": [
+      "<iframe href=\"https://maps.google.com\" title=\"Bản đồ trường\"></iframe>",
+      "<a href=\"https://maps.google.com\">Bản đồ trường</a>",
+      "<iframe src=\"https://www.google.com/maps/embed?...\"></iframe>",
+      "<a src=\"map.html\">Bản đồ trường</a>"
+    ],
+    "a": 1,
+    "source": "Bài 10. Tạo liên kết_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-10-t-o-li-n-k-t-mcq-020"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Trong HTML, thẻ nào dùng để chèn hình ảnh vào trang web?",
+    "options": [
+      "<img>",
+      "<image>",
+      "<picture>",
+      "<src>"
+    ],
+    "a": 0,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Thuộc tính bắt buộc trong thẻ <img> là gì?",
+    "options": [
+      "width",
+      "alt",
+      "src",
+      "title"
+    ],
+    "a": 2,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Tệp nào sau đây không phải là định dạng ảnh thường dùng trên web?",
+    "options": [
+      ".jpg",
+      ".png",
+      ".mp4",
+      ".gif"
+    ],
+    "a": 2,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-003"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Thẻ HTML nào được sử dụng để chèn âm thanh?",
+    "options": [
+      "<audio>",
+      "<sound>",
+      "<music>",
+      "<mp3>"
+    ],
+    "a": 0,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-004"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Thẻ <video> trong HTML có công dụng là:",
+    "options": [
+      "Tạo hiệu ứng chuyển động văn bản",
+      "Chèn và phát tệp video",
+      "Định dạng chữ",
+      "Liên kết đến video ngoài"
+    ],
+    "a": 1,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-005"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Thẻ <iframe> trong HTML có chức năng chính là gì?",
+    "options": [
+      "Nhúng một tài liệu HTML khác vào trang web hiện tại",
+      "Hiển thị hình ảnh",
+      "Phát video tự động",
+      "Định dạng đoạn văn"
+    ],
+    "a": 0,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-006"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Thuộc tính alt trong thẻ <img> có tác dụng:",
+    "options": [
+      "Đặt tên tệp ảnh",
+      "Mô tả hình ảnh khi ảnh không tải được",
+      "Tăng tốc độ hiển thị ảnh",
+      "Liên kết ảnh với tệp CSS"
+    ],
+    "a": 1,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-007"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Để video tự động phát khi tải trang, ta thêm thuộc tính nào vào thẻ <video>?",
+    "options": [
+      "controls",
+      "autoplay",
+      "loop",
+      "muted"
+    ],
+    "a": 1,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-008"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Trong thẻ <audio>, thuộc tính controls có ý nghĩa là:",
+    "options": [
+      "Cho phép người dùng điều khiển phát/tạm dừng âm thanh",
+      "Tăng âm lượng mặc định",
+      "Lặp lại âm thanh",
+      "Đặt đường dẫn tệp âm thanh"
+    ],
+    "a": 0,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-009"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Trong HTML5, vì sao nên dùng thẻ <video> và <audio> thay cho Flash?",
+    "options": [
+      "Vì Flash không còn được hỗ trợ và tốn tài nguyên",
+      "Vì thẻ HTML5 hiển thị đẹp hơn",
+      "Vì Flash chỉ hoạt động trên Chrome",
+      "Vì HTML5 dễ viết hơn"
+    ],
+    "a": 0,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-010"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Đoạn mã sau có tác dụng gì?\n<iframe src=\"https://www.youtube.com/embed/abcd1234\"></iframe>",
+    "options": [
+      "Nhúng video YouTube vào trang web",
+      "Liên kết đến video YouTube",
+      "Tải về video từ YouTube",
+      "Hiển thị link văn bản YouTube"
+    ],
+    "a": 0,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-011"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Vì sao nên thêm thuộc tính width và height khi chèn ảnh hoặc video?",
+    "options": [
+      "Để tăng tốc độ Internet",
+      "Để trình duyệt biết trước kích thước vùng hiển thị",
+      "Để tránh lỗi font chữ",
+      "Để tự động nén tệp"
+    ],
+    "a": 1,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-012"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Đoạn mã nào đúng để chèn ảnh “lop12A6.png” nằm trong thư mục images?",
+    "options": [
+      "<img src=\"images/lop12A6.png\" alt=\"Lớp 12A6\">",
+      "<img href=\"images/lop12A6.png\">",
+      "<image src=\"lop12A6.png\">",
+      "<img src=\"/lop12A6.png\" name=\"12A6\">"
+    ],
+    "a": 0,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-013"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Đoạn mã nào giúp phát file nhạc “school.mp3” với thanh điều khiển?",
+    "options": [
+      "<audio src=\"school.mp3\">",
+      "<audio href=\"school.mp3\" autoplay>",
+      "<audio src=\"school.mp3\" controls></audio>",
+      "<sound src=\"school.mp3\"></sound>"
+    ],
+    "a": 2,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-014"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Học sinh muốn video gioithieu.mp4 phát tự động và lặp lại. Cú pháp nào đúng?",
+    "options": [
+      "<video src=\"gioithieu.mp4\" autoplay loop></video>",
+      "<video href=\"gioithieu.mp4\" play></video>",
+      "<video src=\"gioithieu.mp4\" controls repeat></video>",
+      "<video autoplay=\"gioithieu.mp4\" loop></video>"
+    ],
+    "a": 0,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-015"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Đoạn mã sau có lỗi gì?\n<img \"src\"=\"school.jpg\" alt=\"Ảnh trường\">",
+    "options": [
+      "Sai chính tả thuộc tính",
+      "Dư dấu ngoặc kép trước src",
+      "Thiếu thẻ đóng </img>",
+      "Không thể hiển thị vì ảnh quá nặng"
+    ],
+    "a": 1,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-016"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Đoạn mã nào sau đây giúp chèn bản đồ Google Map vào trang web?",
+    "options": [
+      "<video src=\"maps.google.com\"></video>",
+      "<iframe src=\"https://www.google.com/maps/embed?...\"></iframe>",
+      "<a href=\"maps.google.com\">Xem bản đồ</a>",
+      "<img src=\"maps.png\" map></img>"
+    ],
+    "a": 1,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-017"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Một nhóm học sinh thiết kế website “Giới thiệu trường”. Họ muốn chèn video giới thiệu trường (truong.mp4) và tùy chỉnh kích thước 640×360. Cú pháp nào đúng?",
+    "options": [
+      "<video src=\"truong.mp4\" width=\"640\" height=\"360\" controls></video>",
+      "<video href=\"truong.mp4\" size=\"640x360\"></video>",
+      "<video width=\"640\" height=\"360\">truong.mp4</video>",
+      "<video src=\"truong.mp4\" control size></video>"
+    ],
+    "a": 0,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-018"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Khi thiết kế web, vì sao cần tôn trọng bản quyền khi sử dụng tệp đa phương tiện?",
+    "options": [
+      "Vì giúp tải trang nhanh hơn",
+      "Vì vi phạm bản quyền có thể bị xử lý pháp lý và mất uy tín",
+      "Vì hình ảnh bản quyền thường xấu",
+      "Vì tệp không tương thích HTML"
+    ],
+    "a": 1,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-019"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 11: Chèn đa phương tiện & iframe",
+    "q": "Một học sinh muốn tạo thư viện ảnh và video giới thiệu lớp học trên cùng một trang.\nHãy chọn nhận định đúng:",
+    "options": [
+      "Cần dùng đồng thời thẻ <img> và <video> với bố cục hợp lý.",
+      "Chỉ dùng được một loại nội dung trên trang.",
+      "Phải lưu tất cả tệp trong cùng thư mục với HTML.",
+      "Không thể chèn nhiều định dạng trong một trang web."
+    ],
+    "a": 0,
+    "source": "Bài 11 Chèn tệp tin đa phương tiện và khung nội tuyến vào trang web_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-11-ch-n-a-ph-ng-ti-n-iframe-mcq-020"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Khi thiết kế trang web thu thập thông tin khách hàng, thẻ HTML nào dùng để tạo biểu mẫu?",
+    "options": [
+      "<table>",
+      "<form>",
+      "<input>",
+      "<div>"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Biểu mẫu (form) trong trang web có ý nghĩa chính là gì?",
+    "options": [
+      "Trang trí giao diện",
+      "Chia nội dung web thành từng phần",
+      "Thu thập dữ liệu người dùng",
+      "Tạo liên kết sang trang khác"
+    ],
+    "a": 2,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Thuộc tính nào của <form> quy định nơi dữ liệu được gửi đến?",
+    "options": [
+      "Name",
+      "Id",
+      "Action",
+      "type"
+    ],
+    "a": 2,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-003"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "HS đang tạo form đăng ký CLB Bóng chuyền của trường. Em cần dùng thẻ nào để nhập họ tên?",
+    "options": [
+      "<button>",
+      "<p>",
+      "<input>",
+      "<link>"
+    ],
+    "a": 2,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-004"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Đâu là cú pháp mở đúng của thẻ biểu mẫu?",
+    "options": [
+      "<from>",
+      "<form>",
+      "<form/>",
+      "<form></form>"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-005"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Thẻ nào dùng để nhập đoạn văn bản dài (ý kiến, mô tả)?",
+    "options": [
+      "<textarea>",
+      "<input type=\"text\">",
+      "<label>",
+      "<button>"
+    ],
+    "a": 0,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-006"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "HS gửi form đăng ký CLB nhưng không có nút gửi (submit) nên dữ liệu không được chuyển. Em cần thẻ nào?",
+    "options": [
+      "<button>Click</button>",
+      "<input type=\"submit\">",
+      "<p>Submit</p>",
+      "<a href=\"#\">Gửi</a>"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-007"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Tại sao nên sử dụng <label for=\"name\">Họ tên:</label>?",
+    "options": [
+      "Dùng để nhập dữ liệu",
+      "Giúp trình duyệt hiểu dữ liệu",
+      "Giúp người dùng biết phải nhập gì",
+      "Không có tác dụng"
+    ],
+    "a": 2,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-008"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Thuộc tính method=\"post\" trong <form> có ý nghĩa gì?",
+    "options": [
+      "Gửi dữ liệu bằng URL",
+      "Gửi dữ liệu an toàn, không hiển thị trên URL",
+      "Từ chối mọi dữ liệu",
+      "Không có tác dụng"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-009"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Ngữ cảnh:\nMột bạn muốn tạo biểu mẫu đăng ký tài khoản. Trong biểu mẫu, cần có phần lựa chọn giới tính (Nam/Nữ).\nĐể tạo hộp chọn giới tính chỉ được chọn một trong hai lựa chọn Nam hoặc Nữ, em nên dùng thẻ nào?",
+    "options": [
+      "<input type=\"checkbox\">",
+      "<input type=\"radio\">",
+      "<select multiple>",
+      "<textarea>"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-010"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Form chỉ để thu thập dữ liệu, không gửi đi đâu. Ta nên dùng action=\"\" như thế nào?",
+    "options": [
+      "action=\"none\"",
+      "action=\"#\"",
+      "bỏ action",
+      "Không thể tạo form nếu không có action"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-011"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Đâu là lý do cần có thuộc tính name trong <input>?",
+    "options": [
+      "Tạo ID riêng cho dữ liệu",
+      "Là bắt buộc khi gửi dữ liệu",
+      "Giúp xử lý dữ liệu dễ dàng",
+      "Tất cả các đáp án trên"
+    ],
+    "a": 3,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-012"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Một shop nhỏ cần form đặt hàng. Em cần thêm phần ghi chú của khách. Em sẽ chọn thẻ:",
+    "options": [
+      "<input type=\"checkbox\">",
+      "<textarea>",
+      "<h3>",
+      "<span>"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-013"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Em muốn form đăng ký không thể gửi khi chưa nhập họ tên. Thuộc tính nào cần thêm?",
+    "options": [
+      "Disabled",
+      "Required",
+      "Hidden",
+      "name"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-014"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Để chọn nhiều sở thích cùng lúc (Đọc sách / Thể thao / Du lịch), thẻ nào hợp lý nhất?",
+    "options": [
+      "<input type=\"checkbox\">",
+      "<input type=\"radio\">",
+      "<input type=\"text\">",
+      "<select>"
+    ],
+    "a": 0,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-015"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Trong dự án làm web bán đồ ăn, HS cần tạo form chọn size nước uống (S/M/L). Thẻ nào hiệu quả nhất?",
+    "options": [
+      "<radio>",
+      "<select><option></option></select>",
+      "<img>",
+      "<button>"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-016"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Muốn xử lý dữ liệu bằng file xuly.php, cần viết:",
+    "options": [
+      "<form method=\"get\">xuly.php</form>",
+      "<form action=\"xuly.php\">",
+      "<form name=\"xuly.php\">",
+      "<form form=\"xuly.php\">"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-017"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Lớp muốn khảo sát mức độ stress mùa thi, cần nhập thông tin cá nhân TỰ NGUYỆN. Cách làm đúng?",
+    "options": [
+      "Hiển thị luôn các câu hỏi",
+      "Bắt buộc nhập họ tên",
+      "Thêm chú thích: “Không bắt buộc ghi tên”",
+      "Không cần form"
+    ],
+    "a": 2,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-018"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Khi thiết kế form đăng ký CLB, học sinh muốn người dùng chỉ được chọn 1 ngành nghề yêu thích. Thẻ nào phù hợp nhất?",
+    "options": [
+      "<input type=\"radio\">",
+      "<input type=\"checkbox\">",
+      "<textarea>",
+      "<select multiple>"
+    ],
+    "a": 0,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-019"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "GV yêu cầu tạo form có tính thẩm mỹ cao, dễ nhìn với người lớn tuổi. Cách chuyển đổi giao diện đúng hướng nghề nghiệp?",
+    "options": [
+      "Không cần CSS vì không ảnh hưởng dữ liệu",
+      "Cần dùng CSS để căn lề, font chữ dễ đọc",
+      "Dùng <table> cho tất cả",
+      "Dùng nhiều màu neon để thu hút"
+    ],
+    "a": 1,
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-mcq-020"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Trang web đăng ký thi thử VSTEP của trường THPT dùng form để thu thập thông tin học sinh.",
+    "statements": [
+      "Họ tên có thể nhập bằng <input type=\"text\">.",
+      "Mật khẩu nên dùng <input type=\"password\">.",
+      "Chọn lớp (10A1, 10A6...) dùng <input type=\"radio\">.",
+      "Chọn nhiều nguyện vọng thi nên dùng <input type=\"radio\">."
+    ],
+    "a": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-tf4-001"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Form thu thập mức độ stress mùa thi cho học sinh trường.",
+    "statements": [
+      "Câu hỏi mô tả stress nên dùng <textarea>.",
+      "Thuộc tính method=\"post\" bảo mật hơn get.",
+      "Dữ liệu của form chỉ có thể xử lý bằng PHP.",
+      "Nếu không ghi name=\"\" thì dữ liệu vẫn gửi về đúng."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-tf4-002"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Form đăng ký tuyển cộng tác viên bán hàng online.",
+    "statements": [
+      "Số điện thoại dùng <input type=\"number\">.",
+      "Email cần dùng type=\"email\".",
+      "Bắt buộc nhập trước khi gửi cần required.",
+      "Chọn ca làm việc (sáng/chiều/tối) nên dùng <textarea>."
+    ],
+    "a": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-tf4-003"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Form đăng ký “CLB Lập trình C++ – Python”.",
+    "statements": [
+      "Tiêu đề form nên viết bằng <h2>.",
+      "Form phải luôn có nút submit.",
+      "Để gửi dữ liệu sang email, dùng mailto: trong action.",
+      "CSS không liên quan đến chất lượng form."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-tf4-004"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "HS thiết kế form khảo sát mạng xã hội ảnh hưởng đến học tập.",
+    "statements": [
+      "Có thể dùng CSS để căn lề form đẹp hơn.",
+      "Các thẻ <input> phải nằm trong <form>.",
+      "Không thể tạo form nếu không có Internet.",
+      "Biểu mẫu có thể giúp kiểm soát hành vi học sinh."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-tf4-005"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "GV yêu cầu tạo form đăng ký CLB Thể thao – nhiều môn.",
+    "statements": [
+      "Chọn nhiều môn nên dùng checkbox.",
+      "<select> chỉ chọn được 1 lựa chọn.",
+      "Cú pháp <form>...</from> là sai.",
+      "Có thể dùng form để thống kê dữ liệu xuất Excel."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-tf4-006"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Form đăng ký mượn sách thư viện số.",
+    "statements": [
+      "Nhập ngày mượn dùng type=\"date\".",
+      "Chọn lớp học nên dùng <link>.",
+      "Chỉ submit form được khi nút có type=\"submit\".",
+      "Form có thể thay thế Google Form trong nhiều trường hợp."
+    ],
+    "a": [
+      true,
+      false,
+      false,
+      true
+    ],
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-tf4-007"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Một trang web không có form nhưng vẫn bắt đăng nhập để vào trang nội bộ.",
+    "statements": [
+      "Có thể dùng JavaScript popup thay form",
+      "Không có form thì chắc chắn không thể thu thập dữ liệu.",
+      "AJAX có thể gửi dữ liệu mà không cần form truyền thống.",
+      "Nếu không có form thì website không thể chuyên nghiệp."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-tf4-008"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 12: Tạo biểu mẫu",
+    "q": "Thiết kế form “Lựa chọn nghề nghiệp tương lai”.",
+    "statements": [
+      "Đặt câu hỏi mở nên dùng <textarea>.",
+      "Chọn nghề yêu thích chỉ 1 → dùng radio",
+      "Chọn mức lương mong muốn → dùng select.",
+      "Thiết kế form đẹp mắt giúp gây ấn tượng nghề nghiệp."
+    ],
+    "a": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "source": "Bài 12. Tạo biểu mẫu_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-12-t-o-bi-u-m-u-tf4-009"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Trong buổi họp nhóm dự án, trưởng nhóm yêu cầu bổ sung “định dạng giao diện” cho trang web giới thiệu CLB. Để làm điều này, nhóm cần sử dụng công nghệ nào?",
+    "options": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP"
+    ],
+    "a": 1,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Trang web tuyển cộng tác viên của trường nhìn rối mắt vì chữ nhiều màu, khoảng cách không đều. Kỹ thuật viên nói: “Chỉ cần chỉnh CSS là ổn”. CSS ở đây đảm nhiệm vai trò gì?",
+    "options": [
+      "Tạo nội dung trang web",
+      "Đảm bảo tính toán logic",
+      "Trình bày và định dạng website",
+      "Lưu trữ dữ liệu"
+    ],
+    "a": 2,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Học sinh đang học về cấu trúc CSS. Thành phần quy định giá trị cần thiết lập được gọi là gì?",
+    "options": [
+      "Selector",
+      "Property",
+      "Value",
+      "Attribute"
+    ],
+    "a": 2,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-003"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Trong đoạn CSS sau:\nh1 {\n color: blue;\n}\nSelector là thành phần nào?",
+    "options": [
+      "color",
+      "Blue",
+      "h1",
+      "dấu { }"
+    ],
+    "a": 2,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-004"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Bạn Minh muốn đổi màu chữ của một đoạn văn bằng CSS nội tuyến. Bạn ấy nên đặt CSS ở đâu?",
+    "options": [
+      "Trong file CSS riêng",
+      "Trong cặp thẻ <style> ở <head>",
+      "Ngay trong thuộc tính của thẻ HTML",
+      "Trong tập tin JavaScript"
+    ],
+    "a": 2,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-005"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Cách nào sau đây không phải là cách viết CSS?",
+    "options": [
+      "Internal CSS",
+      "External CSS",
+      "Inline CSS",
+      "Java CSS"
+    ],
+    "a": 3,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-006"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Một trang web của lớp bị đánh giá “không chuyên nghiệp” do chữ nhỏ, màu loang lổ, khoảng cách thiếu thống nhất. Vì sao điều này xảy ra?",
+    "options": [
+      "HTML bị lỗi",
+      "Không kết nối cơ sở dữ liệu",
+      "Web thiếu CSS hoặc CSS chưa chuẩn",
+      "Máy chủ quá yếu"
+    ],
+    "a": 2,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-007"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Một học sinh chỉnh màu chữ bằng inline CSS trong 10 thẻ <p>. Hôm sau muốn đổi màu toàn bộ, bạn ấy phải sửa từng thẻ. Nguyên nhân là?",
+    "options": [
+      "Chọn sai font",
+      "Lỗi HTML cấu trúc",
+      "Inline CSS không tái sử dụng",
+      "Internal CSS chạy sai"
+    ],
+    "a": 2,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-008"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Internal CSS phù hợp nhất khi nào?",
+    "options": [
+      "Website rất lớn với nhiều trang",
+      "Dự án cần dùng chung CSS cho tất cả file",
+      "Trang web nhỏ, một trang duy nhất",
+      "Khi muốn giảm số lượng mã CSS"
+    ],
+    "a": 2,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-009"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Vì sao Web Developer chuyên nghiệp thường chọn External CSS?",
+    "options": [
+      "Tốc độ viết nhanh hơn",
+      "CSS được dùng chung nhiều trang, dễ bảo trì",
+      "Ít phải dùng property",
+      "Không cần link file"
+    ],
+    "a": 1,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-010"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Trong trang web CLB, bạn dùng selector .title để định dạng. Dấu “.” thể hiện điều gì?",
+    "options": [
+      "Định dạng ID",
+      "Định dạng class",
+      "Chọn toàn bộ phần tử HTML",
+      "Định dạng thẻ <h1>"
+    ],
+    "a": 1,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-011"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Nhược điểm lớn nhất của Inline CSS trong dự án thật là gì?",
+    "options": [
+      "Không thể dùng màu sắc",
+      "Khó bảo trì và thay đổi đồng bộ",
+      "Không chạy được trên Chrome",
+      "Gây lỗi HTML"
+    ],
+    "a": 1,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-012"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Bạn Lan được giao chỉnh giao diện web thông báo thi HSG. Nhóm muốn tất cả thẻ <h2> có cùng màu xanh. Cách nào hiệu quả nhất?",
+    "options": [
+      "Dùng inline CSS trong từng thẻ <h2>",
+      "Dùng internal CSS: h2 { color: green; }",
+      "Viết CSS vào thuộc tính <body>",
+      "Chọn từng chữ và đổi màu bằng editor"
+    ],
+    "a": 1,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-013"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Một website bán đồ ăn vặt có nhiều trang: trang chủ, menu, liên hệ. Designer muốn toàn bộ dùng cùng một font chữ. Cách đúng là?",
+    "options": [
+      "Inline CSS cho từng thẻ",
+      "Internal CSS cho từng trang",
+      "External CSS dùng chung",
+      "Thêm font vào từng đoạn văn"
+    ],
+    "a": 2,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-014"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Trong đoạn CSS:\n.card {\n background: pink;\n border-radius: 10px;\n}\nThuộc tính border-radius có vai trò gì?",
+    "options": [
+      "Làm chữ đậm",
+      "Tạo bo góc cho khung",
+      "Làm nền tối",
+      "Tăng kích thước chữ"
+    ],
+    "a": 1,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-015"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Web của lớp lỗi không nhận file CSS ngoài. Nguyên nhân phổ biến nhất?",
+    "options": [
+      "Sai đường dẫn trong thẻ <link>",
+      "HTML không hỗ trợ CSS",
+      "File CSS không cho viết font",
+      "Web phải chạy trên server mới nhận CSS"
+    ],
+    "a": 0,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-016"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Một học sinh viết CSS sau nhưng không có tác dụng:\np {\n color: red\n}\nLý do hợp lý nhất?",
+    "options": [
+      "Thiếu dấu ;",
+      "Sai selector",
+      "Trình duyệt không hỗ trợ CSS",
+      "Phải dùng inline CSS mới chạy"
+    ],
+    "a": 0,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-017"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Bạn đang thiết kế trang web cho trường. Giao diện dùng chung cho 12 trang khác nhau. Nhưng mỗi trang có một vài phần cần CSS riêng. Bạn chọn mô hình tối ưu?",
+    "options": [
+      "Chỉ dùng inline CSS để điều chỉnh chi tiết",
+      "Dùng 12 file CSS khác nhau cho từng trang",
+      "Dùng external CSS chung + internal CSS cho phần riêng",
+      "Chỉ dùng internal CSS cho tất cả"
+    ],
+    "a": 2,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-018"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 13: Khái niệm & vai trò của CSS",
+    "q": "Trong dự án thiết kế trang web 20/11 cho trường, team muốn vừa tối ưu tốc độ tải trang, vừa đảm bảo dễ bảo trì. Cách tổ chức CSS đúng nhất?",
+    "options": [
+      "Tách CSS thành nhiều file nhỏ để dễ phân loại",
+      "Gom toàn bộ CSS vào một file duy nhất và nén (minify)",
+      "Chỉ dùng inline để không cần tải file CSS",
+      "Viết CSS vào cuối body"
+    ],
+    "a": 1,
+    "source": "Bài 13 Khái niệm vài trò của CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-13-kh-i-ni-m-vai-tr-c-a-css-mcq-019"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn Minh đang muốn đổi màu chữ tiêu đề của website bán đồ ăn cho trường. Để CSS đổi màu chữ, bạn ấy cần dùng thuộc tính nào?",
+    "options": [
+      "font-style",
+      "Color",
+      "text-align",
+      "background-color"
+    ],
+    "a": 1,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-001"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Một bạn đang viết báo cáo HTML và muốn chữ in nghiêng bằng CSS. Thuộc tính cần dùng?",
+    "options": [
+      "font-weight",
+      "font-size",
+      "font-style",
+      "text-decoration"
+    ],
+    "a": 2,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-002"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Khi thiết kế website câu lạc bộ Âm nhạc, bạn muốn thay đổi kích thước chữ. Dùng thuộc tính nào?",
+    "options": [
+      "text-transform",
+      "font-size",
+      "font-family",
+      "line-height"
+    ],
+    "a": 1,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-003"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Trong lớp học, bạn muốn áp dụng CSS cho tất cả đoạn <p>. Cú pháp chọn thẻ đúng là:",
+    "options": [
+      "#p { }",
+      ".p { }",
+      "p { }",
+      "text-p { }"
+    ],
+    "a": 2,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-004"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Để đổi font chữ của trang web bài giới thiệu bản thân, thuộc tính cần dùng:",
+    "options": [
+      "font-family",
+      "font-color",
+      "font-align",
+      "text-font"
+    ],
+    "a": 0,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-005"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn nhận file CSS trong đó có dòng:\nh1 { text-align: center; }\nThuộc tính này giúp?",
+    "options": [
+      "Căn giữa văn bản",
+      "Tăng độ đậm chữ",
+      "Tạo gạch chân",
+      "Tạo khoảng cách dòng"
+    ],
+    "a": 0,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-006"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Trong trang web, bạn đặt CSS:\nbody { color: blue; }\np { color: red; }\nVăn bản trong thẻ <p> sẽ có màu gì?",
+    "options": [
+      "Xanh",
+      "Đỏ",
+      "Cả hai",
+      "Tùy trình duyệt"
+    ],
+    "a": 1,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-007"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn muốn dùng 3 font dự phòng cho website lớp học. Cú pháp đúng là:",
+    "options": [
+      "font-family: Arial; sans-serif; Roboto;",
+      "font-family: Arial, Roboto, sans-serif;",
+      "font-family = Arial + Roboto + sans-serif;",
+      "font-family(Arial Roboto sans-serif)"
+    ],
+    "a": 1,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-008"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn chèn CSS vào đầu file HTML bằng cặp thẻ <style>. Cách này gọi là:",
+    "options": [
+      "CSS nội tuyến",
+      "CSS ngoài",
+      "CSS nhúng",
+      "CSS mặc định"
+    ],
+    "a": 2,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-009"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Một file CSS bên ngoài được liên kết bằng:",
+    "options": [
+      "<script src=\"style.css\">",
+      "<css href=\"style.css\">",
+      "<link rel=\"stylesheet\" href=\"style.css\">",
+      "<style src=\"style.css\">"
+    ],
+    "a": 2,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-010"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Thuộc tính line-height dùng để:",
+    "options": [
+      "Đổi độ nghiêng",
+      "Tăng khoảng cách giữa các từ",
+      "Tăng khoảng cách giữa các dòng văn bản",
+      "Tạo border quanh chữ"
+    ],
+    "a": 2,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.25,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-011"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Khi selector mang class có dạng:",
+    "options": [
+      "#class",
+      ".class",
+      "class {}",
+      "*class"
+    ],
+    "a": 1,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-012"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn thiết kế poster online và muốn mọi chữ trong <div> đều có màu xanh. Nhưng một vài chữ trong <p> cần màu đỏ. CSS nào đúng?",
+    "options": [
+      "div { color: blue; }\np { color: red; }",
+      "p { color: blue; }\ndiv { color: red; }",
+      "div, p { color: blue; }",
+      "Không thể làm được."
+    ],
+    "a": 0,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-013"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn muốn tiêu đề trong trang \"Thông báo nhà trường\" phải in đậm. CSS nào đúng?",
+    "options": [
+      "h1 { font-bold: true; }",
+      "h1 { font-weight: bold; }",
+      "h1 { text-weight: 700; }",
+      "h1 { bold; }"
+    ],
+    "a": 1,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-014"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Trong file CSS bạn có:\n#title { color: red; }\n.title { color: blue; }\nh1 { color: green; }\nThẻ <h1 id=\"title\" class=\"title\"> sẽ có màu?",
+    "options": [
+      "Xanh lá",
+      "Xanh dương",
+      "Đỏ",
+      "Không xác định"
+    ],
+    "a": 2,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-015"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn muốn một đoạn chữ có khoảng cách dòng gấp 1.5 lần kích thước chữ. Cách viết đúng?",
+    "options": [
+      "line-height: 150px;",
+      "line-height: 1.5;",
+      "line-height: 150%;",
+      "B hoặc C đều đúng"
+    ],
+    "a": 1,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-016"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn có đoạn CSS:\np { font-size: 16px; }\n.content p { font-size: 20px; }\nĐoạn <p> nằm trong thẻ <div class=\"content\"> sẽ có kích thước chữ:",
+    "options": [
+      "16px",
+      "20px",
+      "Lấy trung bình",
+      "Tùy trình duyệt"
+    ],
+    "a": 1,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-017"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn thiết kế website cho trường. CSS gồm:\nbody { color: black; }\n.news { color: orange; }\n.news p { color: blue; }\nNếu HTML là:\n<div class=\"news\">\n <p>Thông báo mới</p>\n</div>\nMàu chữ của <p>?",
+    "options": [
+      "Đen",
+      "Cam",
+      "Xanh dương",
+      "Kết hợp cam–xanh"
+    ],
+    "a": 2,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-018"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Trang web có 3 nơi khai báo CSS:\nFile style.css: p { color: green; }\nThẻ <style> trong HTML: p { color: blue; }\nThuộc tính inline: <p style=\"color: red;\">Xin chào</p>\nMàu cuối cùng hiển thị?",
+    "options": [
+      "Xanh lá",
+      "Xanh dương",
+      "Đỏ",
+      "Không xác định"
+    ],
+    "a": 2,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-019"
+  },
+  {
+    "type": "mcq",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn đang tối ưu CSS cho trang web bán hoa tết. Ba quy tắc sau áp dụng cho cùng 1 thẻ <h2>:\nh2 { color: purple !important; }\n#sale h2 { color: red; }\n.highlight h2 { color: green; }\nThẻ <h2> nằm trong <div id=\"sale\" class=\"highlight\"> sẽ có màu gì?",
+    "options": [
+      "Đỏ",
+      "Xanh lá",
+      "Tím",
+      "Không xác định"
+    ],
+    "a": 2,
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "a_conf": 0.7,
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-mcq-020"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Minh đang thiết kế trang web giới thiệu đội văn nghệ của trường. Bạn ấy muốn điều chỉnh màu chữ, kích thước và font chữ cho trang.",
+    "statements": [
+      "Thuộc tính color dùng để đổi màu chữ.",
+      "Thuộc tính font-size dùng để đổi kiểu chữ.",
+      "Thuộc tính font-family dùng để chọn phông chữ hiển thị.",
+      "Thuộc tính cụ thể (p) có thể ghi đè thuộc tính đặt ở body."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-tf4-001"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Lan muốn chỉnh chữ trong bộ hồ sơ tuyển CTV online: căn giữa tiêu đề, tạo khoảng cách dòng dễ đọc.",
+    "statements": [
+      "text-align: center dùng để căn giữa văn bản.",
+      "line-height điều chỉnh khoảng cách dòng.",
+      "CSS nội tuyến (inline) có độ ưu tiên thấp nhất.",
+      "CSS trong file ngoài (style.css) có thể bị CSS nội tuyến ghi đè."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-tf4-002"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn đang làm trang web “Thi học sinh giỏi Tin học THPT”.",
+    "statements": [
+      "Class selector viết bằng dấu chấm “.”",
+      "ID selector có độ ưu tiên cao hơn class.",
+      "Nhiều thẻ có thể dùng chung một ID.",
+      "Một phần tử có cả class và ID, nếu cùng thuộc tính thì ID sẽ thắng."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-tf4-003"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Làm website CLB Bơi lội, bạn muốn nút đăng ký nổi bật hơn.",
+    "statements": [
+      "font-weight: bold dùng để làm chữ đậm.",
+      "font-style: bold là cú pháp đúng để làm đậm chữ.",
+      "text-decoration có thể tạo gạch chân chữ.",
+      "font-weight có thể nhận giá trị số như 400, 700."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-tf4-004"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Website lớp 12A6 cần hiển thị đoạn văn dễ đọc và đẹp trên mobile.",
+    "statements": [
+      "font-size có thể dùng đơn vị px, em, rem.",
+      "line-height: 1.5 thường giúp văn bản thoáng hơn.",
+      "font-family chỉ chấp nhận 1 font duy nhất.",
+      "Có thể khai báo nhiều font để trình duyệt tự chọn font phù hợp."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-tf4-005"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Linh làm trang web trò chơi Tết và muốn CSS dễ quản lý.",
+    "statements": [
+      "CSS nhúng trong <style> thuộc dạng internal stylesheet.",
+      "CSS nội tuyến inline dễ bảo trì nhất.",
+      "Nên dùng CSS file ngoài khi dự án lớn.",
+      "CSS ngoài tải chậm hơn nên không bao giờ được dùng."
+    ],
+    "a": [
+      true,
+      false,
+      true,
+      false
+    ],
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-tf4-006"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn thiết kế trang web bán sản phẩm handmade.",
+    "statements": [
+      "text-transform: uppercase chuyển toàn bộ chữ thành in hoa.",
+      "font-style: italic tạo chữ nghiêng.",
+      "color: #000000 và color: black là tương đương.",
+      "text-align: justify căn đều hai bên."
+    ],
+    "a": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-tf4-007"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn muốn thay đổi toàn bộ kiểu chữ trong trang web thông báo học phí.",
+    "statements": [
+      "body { color: red; } làm toàn bộ chữ hiển thị màu đỏ trừ khi bị ghi đè.",
+      "Kế thừa là cơ chế CSS cho phép thuộc tính cha truyền xuống con.",
+      "Mọi thuộc tính của cha đều được con kế thừa.",
+      "Nếu body { font-family: Arial }, thẻ <p> sẽ dùng Arial trừ khi được đổi lại."
+    ],
+    "a": [
+      true,
+      true,
+      false,
+      true
+    ],
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-tf4-008"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Bạn kiểm tra lỗi CSS trong giao diện web chấm thi trực tuyến.",
+    "statements": [
+      "CSS ưu tiên: inline > internal > external.",
+      "Selector cụ thể hơn sẽ thắng selector chung.",
+      "!important có thể vượt mọi ưu tiên khác.",
+      "Class có độ ưu tiên cao hơn ID."
+    ],
+    "a": [
+      true,
+      true,
+      true,
+      false
+    ],
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-tf4-009"
+  },
+  {
+    "type": "tf4",
+    "theme": "4. Giải quyết vấn đề với máy tính",
+    "lesson": "Bài 14: Định dạng văn bản bằng CSS",
+    "q": "Thiết kế web quảng bá lễ hội Xuân, bạn có các đoạn CSS sau:\nh1 { color: blue; }\n.title { color: red; }\n#main-title { color: green; }\nHTML:\n<h1 id=\"main-title\" class=\"title\">Lễ hội Xuân 2026</h1>",
+    "statements": [
+      "Thẻ này nhận kiểu từ selector h1.",
+      "Class .title có độ ưu tiên cao hơn h1.",
+      "ID #main-title có độ ưu tiên cao nhất.",
+      "Màu cuối cùng của chữ sẽ là xanh lá."
+    ],
+    "a": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "source": "Bài 14. Định dạng văn bản bằng CSS_HS.docx",
+    "id": "4-gi-i-quy-t-v-n-v-i-m-y-t-nh-b-i-14-nh-d-ng-v-n-b-n-b-ng-css-tf4-010"
+  }
+];
